@@ -1,82 +1,82 @@
 body {
-    margin: 0; /* Eliminar margen por defecto */
-    font-family: 'Segoe UI', sans-serif; /* Fuente de texto */
-    background: #071013; /* Color negro intenso al body */
+    margin: 0; 
+    font-family: 'Segoe UI', sans-serif; 
+    background: #071013; 
 }
 
 .container {
-    display: flex; /* Para que el contendor sea flexible */
-    max-width: 1100px; /* Limita el ancho del contenedor */
-    margin: 0 auto; /* Centra contendor */
+    display: flex; 
+    max-width: 1100px; 
+    margin: 0 auto; 
     background: #DFE0E2;
 }
 
 /* Parte izquierda */
 .informacion {
-    width: 35%; /* Tamaño del contenedor */
-    background: #453643; /* Fondo color berenjena */
-    color: #DFE0E2; /* Color de texto */
-    padding: 25px; /* Espacio entre el contenido y el borde la sección */
-    box-sizing: border-box; /* Evita que el padding se desborde */
+    width: 35%; 
+    background: #453643; 
+    color: #DFE0E2; 
+    padding: 25px; 
+    box-sizing: border-box; 
 }
 
 .container img {
-    width: 100%; /* tamaño de imagen */
-    border-radius: 8px; /* Bordes de la imagen */
-    margin-bottom: 20px; /* Margen para separar la imagen del contenido siguiente*/
+    width: 100%; 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
 }
 
 .informacion h2 {
-    font-size: 16px; /* Tamaño de fuente */
-    border-bottom: 1px solid #AAAAAA; /* Linea de un pixel de grosor */
-    margin-top: 20px; /* Margen para separar el encabezado de los elementos anteriores*/
-    padding-bottom: 5px; /* Espacio debajo del encabezado */
-    
-    letter-spacing: 1px; /* Espacio entre las letras */
+    font-size: 16px; 
+    border-bottom: 1px solid #AAAAAA; 
+    margin-top: 20px; 
+    padding-bottom: 5px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
 }
 
 .informacion p, .informacion li {
-    font-size: 14px; /* Tamaño de fuente */
-    margin: 8px 0; /* Margen arriba y abajo de cada parrafo y lista */
-    line-height: 1.4; /* Interlineado */
+    font-size: 14px; 
+    margin: 8px 0; 
+    line-height: 1.4; 
 }
 
 .informacion ul {
-    padding-left: 14px; /* Relleno izquierdo, para que la lista no quede pegada al borde del contenedor */
-    line-height: 1.4; /* Interlineado */
+    padding-left: 14px;
+    line-height: 1.4; 
 }
 
 /* Parte derecha */
 .lado {
     width: 65%; 
-    padding: 30px; /* Espacio alrededor del contenido */
-    box-sizing: border-box; /* Evita que el padding se desborde */
+    padding: 30px; 
+    box-sizing: border-box; 
 }
 
 header h1 {
-    font-size: 50px; /* Tamaño del encabezado */
-    margin: 0; /* Elimina margenes predeterminados */
-    font-weight: 900; /* Grosor de la fuente */
+    font-size: 50px; 
+    margin: 0; 
+    font-weight: 900; 
 }
 
 .lado h2 {
-    font-size: 16px; /* Tamaño de fuente */
-    margin-bottom: 10px; /* Añade margen */
-    border-bottom: 1px solid #AAAAAA; /* Añade una línea debajo de cada h2 */
-    padding-bottom: 5px; /* Un espacio debajo del texto */
-    text-transform: uppercase; /* Convierte el texto en mayusccula */
-    letter-spacing: 1px; /* Espacio de un pixel entre las leetras */
+    font-size: 16px; 
+    margin-bottom: 10px; 
+    border-bottom: 1px solid #AAAAAA; 
+    padding-bottom: 5px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
 }
 
 .lado a{
-    color: black /* Color de los enlaces */
+    color: black 
 }
 
 .lado p, .lado li {
-    font-size: 14px; /* Tamaño para los parrafos */
-    line-height: 1.6; /* Interlineado */
+    font-size: 14px; 
+    line-height: 1.6; 
 }
 
 .lado ul {
-    padding-left: 20px; /* Relleno a la izquierda de las listas */
+    padding-left: 20px; 
 }
